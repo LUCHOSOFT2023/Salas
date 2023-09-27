@@ -9,7 +9,7 @@ class Server{
     constructor(){
         this.app = express()
         this.port = process.env.PORT //Capturando variable puerto
-        this.salaPath = '/api/salas' //Ruta pública salas
+        this.salaPath = '/api/sala' //Ruta pública salas
         this.middlewares();
         this.conectarDB()
         this.routes()
