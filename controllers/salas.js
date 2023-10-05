@@ -43,7 +43,7 @@ const salaPost = async(req, res) => {
 
 const salaPut = async(req, res) => {
 
-    const {codigo_sala, descripcion, numero_equipos, numero_sillas} = req.body
+    const {codigo_sala, descripcion, numero_equipos, numero_sillas, televisores} = req.body
 
     let mensaje = "Modificación exitosa"
 
