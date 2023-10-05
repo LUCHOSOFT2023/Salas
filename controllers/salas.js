@@ -51,7 +51,9 @@ const salaPut = async(req, res) => {
         await Sala.updateMany({codigo_sala:codigo_sala}, {$set: {
             descripcion:descripcion,
             numero_equipos:numero_equipos,
-            numero_sillas:numero_sillas
+            numero_sillas:numero_sillas,
+            televisores:televisores
+
         }});
 
     }catch (error) {
